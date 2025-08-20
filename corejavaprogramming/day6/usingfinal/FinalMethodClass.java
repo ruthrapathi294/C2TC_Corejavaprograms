@@ -1,4 +1,5 @@
 package usingfinal;
+
 class FinalMethodClass {
 	
 	
@@ -9,8 +10,13 @@ class FinalMethodClass {
 	final int a = 50;
 
 	// Final method
-	final void show() {
+	private void show (); {
 		System.out.println("Value of a: " + a);
 	}
-}
+   }
+
+	private void show() {
+		// TODO Auto-generated method stub
+		
+	}
 }
